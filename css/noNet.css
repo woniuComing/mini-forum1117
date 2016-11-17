@@ -1,0 +1,30 @@
+.hideTxt{
+	opacity: 0;
+}
+.img_noNet{
+	margin-top:84px;
+	text-align: center;
+}
+.txt_noNet{
+	font-size: 14px;
+	color:#808080;
+	margin-top:12px;
+}
+.img_noNet img{
+	margin-left:20px;
+}
+.txt_noNet span{
+	text-align: center;
+	display: block;
+}
+.btn_retry{
+	margin-top:20px;
+	margin-left:92px;
+	width: 146px;
+	height: 38px;
+	background:url(../images/button_retry_normal.png) no-repeat;
+	display: block;
+}
+.btn_retry:hover{
+	background:url(../images/button_retry_hover.png) no-repeat;
+}

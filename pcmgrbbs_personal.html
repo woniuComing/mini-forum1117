@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+		<META HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, no-store, must-revalidate">
+		<META HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT"> 
+		<META HTTP-EQUIV="expires" CONTENT="0">
+		<title>pcmgrBbs_Personal</title>
+		<link rel="stylesheet" href="css/perfect-scrollbar-0.4.10.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/lenovo_bbs_personal.css" />
+	</head>
+	<body>
+		<div class='container'>
+			<div class='header'>
+				<a href="index.html" class='header_btn about_all inline'>所有反馈</a>
+				<a href='pcmgrbbs_personal.html' class=' header_btn about_me inline selected'><span>我的反馈</span></a>
+				<!--<a href="wenba.html" class=" header_btn about_anwser "><span>问吧</span></a>-->
+			</div>
+			<div class='section personal_section'>
+				<div class='needLogin'>
+					<img src="images/img_login.png" alt="" /> 
+					<a href="#" class='btn_login'></a>
+				</div>
+				<div class='msgEnpty'>
+					<img src="images/img_empty.png" alt="" />
+					<span>还没发过贴哎~</span>
+					<span>来提议吧，奖励&amp;成就感满满！</span>
+				</div>
+				<div class="top_tips">
+					<a class="new_reply"><span class="new_count" id="new_count"></span><span id="new_text">已读消息</span></a>
+					<a id="mine_replied">我回复的</a>
+				</div>
+				<ul id="personal_list">
+					<!--<li>
+						<div class='user_info'>
+							<div class='inline user_info_right'>
+								<img src="images/head.png" class='icon_header user_header' alt=""/>
+							</div>
+							<div class='user_info_left'>
+								<div class='user_data main_user_data'>
+									<span class='user_name'>
+										<a href="#" class='lf'>ZengYJ</a>
+									</span>
+									<span class='rf reply_time block'>2016.10.16&nbsp;&nbsp;23:00:00</span>
+
+								</div>
+								<div class='user_text'>
+									电脑管家,"专家帮忙"那块,都没看范德萨
+								</div>
+							</div>
+						</div>
+						<div class='offical pub_box'>
+							<div class='inline user_info_right'>
+								<img src="images/minif_home_icon1.png" class='icon_header' alt=""/>
+							</div>
+							<div class='user_info_left'>
+								<div class='user_data'>
+                            <span class='user_name'>
+                                <a href="#" class='lf official_name'>管家客服</a>
+                            </span>
+									<span class='rf off_reply_time'>2016.10.16&nbsp;&nbsp;23:00:00</span>
+								</div>
+								<div class='user_text'>
+									呼呼呼呼年底全,新改版此功能,会经 验大换手机但萨健康家噢计划年底全新改版此功能,会经验大换手机但萨健康家噢...
+								</div>
+							</div>
+						</div>
+					</li>-->
+				</ul>
+				<div class='loadMore' name="1">
+					加载更多
+				</div>
+				<div class="clearfr ca_bottom"></div>
+			</div>
+			<div class='footer'>
+				<div class="inp_box">
+					<input type="text" class='inp'/>
+				</div>
+				<!--placeholder="提问、吐槽、发表意见或建议"-->
+				<!--<a href='#' class='submit_btn inline'></a>-->
+			</div>
+			<!--<div class="clickUp">上</div>-->
+			<!--<div class="clickDown">下</div>-->
+			<span class="inline Mplaceholder-one">提问、吐槽、发表意见或建议</span>
+			<a class='go_top inline'>
+			</a>
+			<div class="commit_mask">
+				<div class="commit_mask_main"></div>
+				<div class="commit_content">
+            	<textarea maxlength="300" id="commit_text" oncopy="return false"
+					  oncontextmenu="window.event.returnValue=false" onpaste="return false"></textarea>
+					<p class="countText">
+						<span class="countValue">300</span>/300
+					</p>
+					<p class="Mplaceholder">请输入您的问题，意见或建议.请避免使用敏感文字，文明发言.字数不要超过300字，超出300字后系统会将多余的字体截断.</p>
+					<p class="tips commit_tips">您已经输入300字了哦!</p>
+					<div class="mask_btn">
+						<a href="#" class="cel_btn" id="com_can_btn">取消</a>
+						<a href="#" class="reply_commit_btn" id="commit_btn">发帖</a>
+					</div>
+				</div>
+			</div>
+			<p class="c_s_tip">提交成功，可到我的反馈中查看!</p>
+			<input type="text" class="fake"/>
+			<!--<div class="mask">
+				<div class='input_container'>
+					<div class='mask_top'>
+						<a href="#" class="close_btn rf inline"></a>
+					</div>
+					<textarea maxlength="300" class='reply_txt' oncopy="return false" oncontextmenu="window.event.returnValue=false" onpaste="return false"></textarea>
+					<div class='mask_footer'>
+						<a href="#" class='submit_lg_btn inline'></a>
+						&lt;!&ndash;<p class="tips">您已经输入300字了哦！</p>&ndash;&gt;
+						&lt;!&ndash;<span class='inline Mplaceholder'>请输入您的问题、意见或建议。请避免使用敏感文字，文明发言。字数不要超过300字，超出300字后系统会将多余的字体截断。</span>&ndash;&gt;
+						<p class="countText">
+							<span class="countValue">300</span>/300
+						</p>
+					</div>
+				</div>
+			</div>-->
+		</div>
+		<!--测试用临时demo-->
+		<!--<div style="width: 800px;height: 400px;margin:0 auto;">
+			<button id="btn">刷新</button>
+		</div>-->
+		<script src='js/jquery-1.11.3.js'></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/encode_decode.js"></script>
+		<script type="text/javascript" src="js/moment.js"></script>
+		<script type="text/javascript" src="js/perfect-scrollbar-0.4.10.with-mousewheel.min.js" ></script>
+		<script type="text/javascript" src="js/perfect-scrollbar-0.4.10.min.js" ></script>
+		<script src='js/index.js'></script>
+		<script src='js/index_common.js'></script>
+		<script src='js/pcmgrbbs-personal.js'></script>
+		<!--测试用-->
+		<!--<script>
+			$("#btn").on("click",function(){
+				btnRefresh();
+			})
+		</script>-->
+	</body>
+</html>

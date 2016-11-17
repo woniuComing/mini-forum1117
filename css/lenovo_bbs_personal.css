@@ -1,0 +1,105 @@
+
+.needLogin{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	text-align: center;
+	display: none;
+}
+.needLogin img{
+	margin-top:60px;
+}
+.btn_login{
+	margin-top:28px;
+	margin-left:88px;
+	display: block;
+	width:146px;
+	height:38px;
+	background: url(../images/button_login_normal.png) no-repeat;
+}
+.btn_login:hover{
+	background: url(../images/button_login_hover.png) no-repeat;
+}
+.msgEnpty{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	text-align: center;
+	display:none;
+}
+.msgEnpty img{
+	margin-top:108px;
+	margin-bottom: 36px;
+}
+.msgEnpty span{
+	display: block;
+	font-size: 14px;
+	color:#808080;
+}
+.loading2 {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	text-align: center;
+	display:none;
+}
+/*顶部提示消息栏开始*/
+.top_tips {
+	height: 50px;
+	width: 100%;
+	background-color: #EEEFF6;
+	padding:14px 19px 0;
+	box-sizing: border-box;
+	display: none;
+}
+.top_tips a {
+	display: block;
+	float: left;
+	background: url("../images/personal-radius.png") no-repeat;
+	width: 110px;
+	height: 34px;
+	text-align:center;
+	margin:0 18px;
+	color:#000;
+	font: 12px/34px "microsoft yahei";
+	cursor: pointer;
+}
+.new_reply {
+
+}
+.new_count {
+	color:#FF4E00;
+}
+/*顶部提示消息栏结束*/
+
+.loadMore {
+	display: none;
+}
+
+/*给li标签添加阴影效果*/
+
+.personal_section > ul > li:before {
+	top: -10px;
+	background-image: url("../images/minif_home_hover.png");
+}
+.personal_section > ul > li:after {
+	bottom: -10px;
+	background-image: url("../images/minif_home_hover2.png");
+}
+.personal_section > ul > li:hover:before,
+.personal_section > ul > li:hover:after{
+	display: block;
+}
+.personal_section > ul > li:hover {
+	background:#ffffff;
+	/*box-shadow: 0px 0px 9px #ccc;*/
+	cursor:pointer;
+
+}
+/*给li标签添加阴影效果结束*/

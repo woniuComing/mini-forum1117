@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+		<title>pcmgrBbsPersonal</title>
+		<link rel="stylesheet" href="css/perfect-scrollbar-0.4.10.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/lenovo_bbs_reply.css" />
+	</head>
+	<body>
+		<div class='container'>
+			<div class='section'>
+				<ul id="msg">
+				</ul>
+				<div class="clearfr ca_bottom"></div>
+			</div>
+			<div class='footer'>
+				<input type="text" class='inp'/>
+				<a href='#' class='submit_btn inline'></a>
+			</div>
+			<span class="inline Mplaceholder-one" style="position:absolute;bottom:26px;left:25px;color:#BBBBBB;font-size: 12px ;font-family: 'microsoft yahei';">提问、吐槽、发表意见或建议</span>
+			<a href="#" class='go_top inline'></a>
+			<div class="mask">
+				<div class='input_container'>
+					<div class='mask_top'>
+						<a href="#" class="close_btn rf inline"></a>
+					</div>
+					<textarea class='reply_txt' oncopy="return false" oncontextmenu="window.event.returnValue=false" onpaste="return false"></textarea>
+					<div class='mask_footer'>
+						<a href="#" class='submit_lg_btn inline'></a>
+						<p class="tips">您已经输入300字了哦！</p>
+						<span class='inline Mplaceholder'>请输入您的想法、见解。请避免使用敏感文字，文明发言。字数不要超过300字，超出300字后系统会将多余的字体截断。</span>
+						<p class="countText">
+							<span class="countValue">300</span>/300
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--测试用临时demo-->
+		<!--<div style="width: 800px;height: 400px;margin:0 auto;">
+			<button id="btn">刷新</button>
+		</div>-->
+		
+		<script type="text/javascript" src='js/jquery-1.11.3.js'></script>
+		<script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
+		<script type="text/javascript" src="js/moment.js"></script>
+		<script type="text/javascript" src="js/perfect-scrollbar-0.4.10.with-mousewheel.min.js" ></script>
+		<script type="text/javascript" src="js/perfect-scrollbar-0.4.10.min.js" ></script>
+		<script type="text/javascript" src='js/index.js'></script>
+		<script type="text/javascript" src='js/index_common.js'></script>
+		<script type="text/javascript" src="js/lenovo_bbs_reply.js"></script>
+		<!--测试用-->
+		<!--<script>
+			$("#btn").on("click",function(){
+				btnRefresh();
+			})
+		</script>-->
+	</body>
+</html>

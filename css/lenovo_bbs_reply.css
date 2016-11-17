@@ -1,0 +1,226 @@
+.section{
+	height:520px;
+}
+.user_data{
+	margin-top:15px;
+}
+.msg .user_data{
+	margin-top:0px;
+}
+.time_dl_praise{
+	font-size:12px;
+	color:#999;
+}
+.reply_time{
+	font-size: 12px;
+	color:#C0C0C1;
+	/*margin-top:12px;*/
+}
+.section ul li{
+	padding-bottom: 7px;
+}
+.delete_msg{
+	cursor: pointer;
+	padding-left:22px;
+	background: url(../images/delete.png) no-repeat 0 1px;
+}
+.delete_msg:hover{
+	background: url(../images/delete_hover.png) no-repeat 0 1px;
+}
+.reply_text{
+	width:205px;
+}
+/*.submit_btn{
+	background:url(../images/button_reply_normal.png)
+}
+.submit_btn:hover{
+	background:url(../images/button_reply_hover.png)
+}*/
+/*主贴内容开始*/
+
+.section>.msg > li{
+	background-color: #fff;
+	padding-bottom: 0px;
+}
+.detail_user_text{
+	margin-top:7px;
+	font-size: 12px;
+	line-height: 20px;
+	color:#000;
+	word-break:break-all;
+	word-wrap:break-word;
+}
+
+/*主贴内容结束*/
+
+/*主贴下回复开始*/
+
+.reply_container {
+	width: 100%;
+	position: relative;
+	display: none;
+}
+.reply_container:before {
+	content: " ";
+	display: block;
+	width: 16px;
+	height: 8px;
+	background: url("../images/minif_details_triangle.png") 0 0 no-repeat;
+	position: absolute;
+	top: -8px;
+	left: 20px;
+}
+.msg_reply {
+	margin-top:18px;
+	width: 100%;
+	padding: 0 15px;
+	box-sizing: border-box;
+	/*border: 1px solid transparent;*/
+	background-color: #fff;
+}
+.off_user_data {
+	margin-top:15px;
+}
+.reply_container >.msg_reply >li:first-child {
+	/*border-top:0 none;*/
+	border-top:1px solid transparent;
+}
+.reply_container >.msg_reply >li {
+	padding-bottom:15px;
+	border-top:1px solid #CCCCCC;
+}
+
+/*主贴下回复开始*/
+
+.user_name a {
+	cursor: default;
+}
+
+.loadMore {
+	display:none;
+}
+
+.detail_footer {
+	background-color: #eeeff6;
+}
+
+/*详情页官方标题样式*/
+.d_off_title {
+	padding-top:0;
+	padding-bottom:10px;
+}
+
+/*详情页删除按钮样式*/
+.icon_del {
+	display: none;
+	width: 25px;
+	padding-bottom: 1px;
+	line-height: 1;
+	border-bottom: 1px solid #aaaaaa;
+	color:#aaaaaa;
+	position: absolute;
+	right: 55px;
+	top: 16px;
+}
+.icon_del:hover {
+	cursor:pointer;
+	border-bottom: 1px solid #4A9CFD;
+	color:#4A9CFD;
+}
+/*弹出删除框样式*/
+.del_mask{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display:none;
+}
+.del_main {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #000;
+	opacity: 0.3;
+	filter:alpha(opacity=30);
+}
+.del_content {
+	width: 260px;
+	height: 160px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-80px;
+	margin-left:-130px;
+	background-color: #fff;
+	font-size: 14px;
+}
+.del_content p {
+	width: 100%;
+	font-size: 12px;
+}
+.d_c_title {
+	height: 30px;
+	background-color: #67ACFD;
+	color:#fff;
+	line-height: 30px;
+	text-align: center;
+}	
+.d_c_tips {
+	height: 95px;
+	background-color: #fff;
+	line-height: 95px;
+	position: relative;
+}
+.d_c_tips > span {
+	padding-left:100px;
+}
+.d_c_logo {
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../images/minif_popup_ico.png") no-repeat;
+	position: absolute;
+	left: 50px;
+	top: 50%;
+	margin-top: -20px;
+}
+.del_content .del_btn{
+	width: 100%;
+	background-color: #EBF3FD;
+	height: 35px;
+	position: relative;
+	padding:6px 34px;
+	box-sizing: border-box;
+}
+.del_btn a {
+	display: inline-block;
+	width: 80px;
+	height: 24px;
+	font-size: 12px;
+	line-height: 24px;
+	/*background-color: pink;*/
+	text-align: center;
+	cursor: pointer;
+	
+}
+.del_btn .del_cancle {
+	float: left;
+	color:#67ACFD;
+	background: url("../images/minif_popup_btn1.png") no-repeat;
+}
+.del_btn .del_cancle:hover {
+	color:#1F74D8;
+	background: url("../images/minif_popup_btn1_hover.png") no-repeat;
+}
+.del_btn .del_sure {
+	float: right;
+	color:#fff;
+	background: url("../images/minif_popup_btn2.png") no-repeat;
+}
+.del_btn .del_sure:hover {
+	background: url("../images/minif_popup_btn2_hover.png") no-repeat;
+}
+

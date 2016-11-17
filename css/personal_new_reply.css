@@ -1,0 +1,105 @@
+/*我的新回复列表开始*/
+.section {
+    height: 545px;
+}
+.public_re_com {
+    margin-top:10px;
+    font-size: 12px;
+    padding:0 15px;
+    background-color: #fff;
+}
+
+.public_re_com .main_user_data {
+    padding-top:12px;
+}
+.section>.public_re_com > li {
+    margin-bottom:0;
+    margin-top:0;
+    padding:0;
+    /*border-top:1px solid #CCCCCC;*/
+    background-color:#fff;
+}
+.public_re_com li {
+
+}
+.public_re_com li:hover {
+    cursor: pointer;
+}
+.n_r_user_text{
+    margin-top:7px;
+    margin-bottom:10px;
+    font-size: 12px;
+    line-height: 20px;
+    color:#000;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+
+.main_info {
+    word-break:break-all;
+    word-wrap:break-word;
+    max-height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 7px 10px;
+    color:#828282;
+    background-color: #F7F8F9;
+    display:-webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+    margin-bottom:19px;
+
+}
+.off_user_data {
+
+}
+.section>.public_re_com > li .offical {
+    padding-top:15px;
+    padding-bottom:0;
+}
+.section>.public_re_com > li:first-child {
+    border-top:none;
+}
+.section > .public_re_com > li:last-child{
+    border-bottom: 1px solid transparent;
+}
+.public_re_com .main_info {
+    line-height: 21px;
+}
+
+.main_info_title {
+    font-weight: 700;
+}
+
+.loadMore {
+    display: none;
+}
+.nur-contain {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: none;
+}
+.nur-contain img{
+   margin-top:150px;
+}
+.noUnRead {
+    width: 100%;
+    /*background-color: pink;*/
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top:-35px;
+    color:#808080;
+    display: block;
+}
+/*我的新回复列表结束*/

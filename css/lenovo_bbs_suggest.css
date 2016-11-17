@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*通用*/
+body {
+	font: 12px "microsoft yahei";
+	background:#bbb;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd {
+    margin:0px;
+    padding:0px;
+    border:none;
+    list-style:none;
+}
+input {border:none;}
+.lf   {float:left;}
+.rf  {float:right;}
+.clear  {clear:both;}
+.inline {display:inline-block;}
+.block {display:block;}
+
+a{
+	text-decoration: none;
+}
+.container{
+	width:330px;
+	height:560px;
+	margin:0 auto;
+	background:#fff;
+	box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+	position:relative;
+	background:#f7fafa;
+}
+/****主体输入框****/
+.user_suggest{
+	box-sizing: border-box;
+	width:288px;
+	height: 365px;
+	border:1px solid #e2e2e2;
+	margin:20px 20px 0 20px; 
+	font-size: 12px;
+	color:#666;
+	padding:12px 10px;
+	padding-bottom:0;	
+	line-height:18px;
+	resize : none; 
+}
+.footer{
+	box-sizing: border-box;
+	padding:61px 92px 74px 92px;
+}
+.submit_btn{
+	width: 146px;
+	height: 38px;
+	background: url(../images/button_submit_normal.png);
+}
+.submit_btn:hover{
+	background: url(../images/button_submit_hover.png);
+}
